@@ -1,7 +1,7 @@
 # Личный проект «Пинк» 
 
 * Студент: [Антон Тарасенко](https://up.htmlacademy.ru/adaptive/24/user/1501321).
-* Наставник: `Неизвестно`.
+* Наставник: [Евгений Бервяченок](https://htmlacademy.ru/profile/jackson).
 
 ---
 
