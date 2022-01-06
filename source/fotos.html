@@ -43,7 +43,9 @@
         <p class="gallery__title">Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?</p>
         <ul class="gallery__card-list">
           <li class="gallery__card-item gallery__card-item--wide">
-            <img class="gallery__card-image" src="img/panorama-tablet.jpg" width="320" height="137" alt="">
+            <a class="gallery__card-link" href="#">
+              <img class="gallery__card-image" src="img/panorama-tablet.jpg" width="320" height="137" alt="">
+            </a>
             <div class="gallery__card-caption">
               <span class="gallery__caption-author">Анна</span>
               <time class="gallery__caption-time">(5 минут назад)</time>
@@ -53,7 +55,9 @@
             </div>
           </li>
           <li class="gallery__card-item">
-            <img class="gallery__card-image" src="img/photo-1-mobile.jpg" width="280" height="180" alt="">
+            <a class="gallery__card-link" href="#">
+              <img class="gallery__card-image" src="img/photo-1-mobile.jpg" width="280" height="180" alt="">
+            </a>
             <div class="gallery__card-caption">
               <span class="gallery__caption-author">Левон</span>
               <time class="gallery__caption-time">(5 часов назад)</time>
@@ -63,7 +67,9 @@
             </div>
           </li>
           <li class="gallery__card-item">
-            <img class="gallery__card-image" src="img/photo-2-mobile.jpg" width="280" height="180" alt="">
+            <a class="gallery__card-link" href="#">
+              <img class="gallery__card-image" src="img/photo-2-mobile.jpg" width="280" height="180" alt="">
+            </a>
             <div class="gallery__card-caption">
               <span class="gallery__caption-author">Антон</span>
               <time class="gallery__caption-time">(12 часов назад)</time>
@@ -73,7 +79,9 @@
             </div>
           </li>
           <li class="gallery__card-item">
-            <img class="gallery__card-image" src="img/photo-3-tablet.jpg" width="280" height="180" alt="">
+            <a class="gallery__card-link" href="#">
+              <img class="gallery__card-image" src="img/photo-3-tablet.jpg" width="280" height="180" alt="">
+            </a>
             <div class="gallery__card-caption">
               <span class="gallery__caption-author">Борис</span>
               <time class="gallery__caption-time">(20 часов назад)</time>
@@ -83,7 +91,9 @@
             </div>
           </li>
           <li class="gallery__card-item">
-            <img class="gallery__card-image" src="img/photo-4-tablet.jpg" width="280" height="180" alt="">
+            <a class="gallery__card-link" href="#">
+              <img class="gallery__card-image" src="img/photo-4-tablet.jpg" width="280" height="180" alt="">
+            </a>
             <div class="gallery__card-caption">
               <span class="gallery__caption-author">Сергей</span>
               <time class="gallery__caption-time">(25 часов назад)</time>
@@ -93,7 +103,9 @@
             </div>
           </li>
           <li class="gallery__card-item">
-            <img class="gallery__card-image" src="img/photo-5-tablet.jpg" width="280" height="180" alt="">
+            <a class="gallery__card-link" href="#">
+              <img class="gallery__card-image" src="img/photo-5-tablet.jpg" width="280" height="180" alt="">
+            </a>
             <div class="gallery__card-caption">
               <span class="gallery__caption-author">Максим</span>
               <time class="gallery__caption-time">(40 часов назад)</time>
@@ -103,7 +115,9 @@
             </div>
           </li>
           <li class="gallery__card-item">
-            <img class="gallery__card-image" src="img/photo-6-tablet.jpg" width="280" height="180" alt="">
+            <a class="gallery__card-link" href="#">
+              <img class="gallery__card-image" src="img/photo-6-tablet.jpg" width="280" height="180" alt="">
+            </a>
             <div class="gallery__card-caption">
               <span class="gallery__caption-author">Надежда</span>
               <time class="gallery__caption-time">(45 часов назад)</time>
@@ -142,6 +156,13 @@
                 </div>
               </div>
             </div>
+            <form class="post-photo__form" method="post" action="https://echo.htmlacademy.ru/">
+              <input class="post-photo__form-input" type="hidden" name="crop">
+              <input class="post-photo__form-input" type="hidden" name="paint">
+              <input class="post-photo__form-input" type="hidden" name="contrast">
+              <button class="post-photo__form-button button" type="submit">Запостить</button>
+              <button class="post-photo__form-button button" type="reset">Отмена</button>
+            </form>
           </div>
         </div>
       </section>
