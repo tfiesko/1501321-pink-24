@@ -23,16 +23,16 @@
             </div>
             <ul class="main-nav__list">
               <li class="main-nav__list-item">
-                <a>Главная</a>
+                <a class="main-nav__link main-nav__link--current">Главная</a>
               </li>
               <li class="main-nav__list-item">
-                <a href="fotos.html">Фотографии</a>
+                <a class="main-nav__link" href="fotos.html">Фотографии</a>
               </li>
               <li class="main-nav__list-item">
-                <a href="form.html">Конкурс</a>
+                <a class="main-nav__link" href="form.html">Конкурс</a>
               </li>
               <li class="main-nav__list-item">
-                <a href="#">HTML Academy</a>
+                <a class="main-nav__link" href="#">HTML Academy</a>
               </li>
             </ul>
           </nav>
@@ -76,26 +76,41 @@
     <main class="page-main">
       <h1 class="visually-hidden">Пинк - приложение для раскрашивания серых будней</h1>
       <section class="advantages">
-        <div class="advantages__wrapper wrapper">
-          <h2 class="visually-hidden">Приемущества</h2>
-          <header class="advantages__header">
+        <h2 class="visually-hidden">Приемущества</h2>
+        <header class="advantages__header">
+          <div class="advantages__header-wrapper wrapper">
             <p class="advantages__header-description">Устали от серости мегаполиса?</p>
             <p class="advantages__header-description">Нам есть, что вам предложить!</p>
-          </header>
-          <ul class="advantages__list">
-            <li class="advantages__item advantages__item--happiness">
-              <h3 class="advantages__title">Поднимает настроение</h3>
-              <p class="advantages__description">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
-            </li>
-            <li class="advantages__item advantages__item--world">
-              <h3 class="advantages__title">Меняет мир вокруг</h3>
-              <p class="advantages__description">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
-            </li>
-            <li class="advantages__item advantages__item--friend">
-              <h3 class="advantages__title">Заводит новых друзей</h3>
-              <p class="advantages__description">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
-            </li>
-          </ul>
+          </div>
+        </header>
+        <div class="advantages__content-container">
+          <div class="advantages__content-wrapper wrapper">
+            <ul class="advantages__list">
+              <li class="advantages__item">
+                <h3 class="advantages__title">Поднимает настроение</h3>
+                <p class="advantages__description">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
+              </li>
+              <li class="advantages__item">
+                <h3 class="advantages__title">Меняет мир вокруг</h3>
+                <p class="advantages__description">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+              </li>
+              <li class="advantages__item">
+                <h3 class="advantages__title">Заводит новых друзей</h3>
+                <p class="advantages__description">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
+              </li>
+            </ul>
+            <ul class="advantages__picture-list">
+              <li class="advantages__picture-item advantages__picture-item--happiness">
+                <img src="img/advantages-picture1.jpg" width="186" height="382" alt="Скучные, серые контейнеры для мусора.">
+              </li>
+              <li class="advantages__picture-item advantages__picture-item--world">
+                <img src="img/advantages-picture2.jpg" width="186" height="382" alt="Весёлые контейнеры для мусора окрашеные в розовый цвет.">
+              </li>
+              <li class="advantages__picture-item advantages__picture-item--friend">
+                <img src="img/advantages-picture3.jpg" width="157" height="320" alt="Весёлые контейнеры для мусора и смайлик помогут завести вам новых друзей.">
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
       <section class="reviews">
