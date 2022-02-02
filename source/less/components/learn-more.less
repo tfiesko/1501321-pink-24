@@ -1,0 +1,49 @@
+.learn-more {
+  display: none;
+  min-height: 276px;
+
+  font-size: 14px;
+
+  @media (min-width: @tablet-width) {
+    display: block;
+  }
+
+  @media (min-width: @desktop-width) {
+    min-height: 430px;
+
+    font-size: 18px;
+
+    background-color: #f2f2f2;
+  }
+}
+
+.learn-more__title {
+  margin: 0;
+}
+
+.learn-more__wrapper {
+  position: relative;
+
+  padding-left: 308px;
+
+  @media (min-width: @desktop-width) {
+    padding-left: 370px;
+    padding-right: 40px;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -15px;
+    width: 238px;
+    height: 276px;
+
+    background-image: url(../../img/timer.svg);
+  }
+}
+
+.learn-more__link {
+  color: #d22856;
+  text-decoration: underline;
+}
