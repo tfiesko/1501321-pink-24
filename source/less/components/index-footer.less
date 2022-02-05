@@ -5,8 +5,21 @@
 }
 
 .index-footer__title {
-  font-size: 40px;
-  line-height: 54px;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.index-footer__contacts {
+  @media (min-width: @tablet-width) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    min-height: 375px;
+  }
+
+  @media (min-width: @desktop-width) {
+    min-height: 345px;
+  }
 }
 
 .index-footer__contacts-title {
@@ -20,5 +33,11 @@
     font-size: 24px;
     line-height: 33px;
     color: #d22856;
+  }
+
+  @media (min-width: @desktop-width) {
+    &:nth-child(2) {
+      order: 3;
+    }
   }
 }

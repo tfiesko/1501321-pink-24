@@ -4,10 +4,51 @@
 }
 
 .price__table {
-
+  // position: absolute;
+  // top: 50%;
+  // left: 50%;
+  // transform: translateY(-50%);
+  // transform: translateX(-50%);
 }
 
-.price__table-head {
+.price__row-title {
+  display: none;
+
+  @media (min-width: @tablet-width) {
+    display: inline;
+  }
+}
+
+.price__table-hidden-cell {
+  display: none;
+
+  @media (min-width: @tablet-width) {
+    display: inline;
+  }
+}
+
+.price__table-wrapper {
+  position: relative;
+  min-height: 506px;
+}
+
+.price__table-smille,
+.price__table-comments,
+.price__table-filter {
+  @media (min-width: @tablet-width) {
+    display: none;
+  }
+}
+
+.price__table-head:first-child .price__table-head-date {
+
+  @media (min-width: @tablet-width) {
+    margin-left: 152px;
+  }
+}
+
+.price__table-head-date {
+  width: 276px;
   min-height: 75px;
 
   font-size: 16px;
@@ -16,7 +57,17 @@
   background-color: #283645;
 }
 
-.price__table-column {
+.price__table-data {
+  @media (min-width: @tablet-width) {
+    width: 152px;
+  }
+
+  @media (min-width: @desktop-width) {
+    width: 233px;
+  }
+}
+
+.price__table-head-row {
 
 }
 
